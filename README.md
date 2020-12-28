@@ -6,3 +6,4 @@ todos:
 - add remaining content
 - cross browser smooth scrolling
 - night mode!
+- add some cool animations
