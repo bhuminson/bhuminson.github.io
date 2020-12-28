@@ -1,5 +1,6 @@
 :root {
   --blue: #1464f6;
+  --gray: #f7f6f6;
 }
 
 html,
@@ -10,21 +11,42 @@ body {
 }
 
 h1,
+h2,
 span {
+  margin: 0;
   color: var(--blue);
 }
 
 h1 {
   font-size: 100px;
-  margin: 0;
 }
 
-.subheader {
+h2 {
+  font-size: 72px;
+}
+
+img {
+  width: 300px;
+  margin-left: 100px;
+}
+
+.bold {
   font-weight: bold;
+}
+
+.subtitle {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.description {
+  margin-top: 0;
 }
 
 .social-icon {
   height: 30px;
+  width: 30px;
+  margin-left: 0px;
   margin-right: 15px;
 }
 
@@ -37,20 +59,51 @@ h1 {
   transform: scale(1.2);
 }
 
-.main {
-  min-height: 100%;
-  display: flex;
-  align-items: center;
-}
-
-.subsection {
+.centered {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-#selfie {
-  margin-left: 100px;
-  height: 300px;
-  border-radius: 50%;
+.main {
+  min-height: 100%;
+}
+
+.dropdown {
+  padding: 0;
+  position: absolute;
+  text-align: center;
+  left: 0;
+  right: 0;
+  bottom: 10px;
+}
+
+.dropdown:hover {
+  font-size: 20px;
+  color: var(--blue);
+}
+
+.container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.gray {
+  background-color: var(--gray);
+}
+
+.text {
+  line-height: 1.75;
+  width: 400px;
+}
+
+.image {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  width: 100px;
+  padding: 40px 0;
 }
