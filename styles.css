@@ -76,10 +76,11 @@ img {
   left: 0;
   right: 0;
   bottom: 10px;
+  transition: color 0.1s linear;
 }
 
 .dropdown:hover {
-  font-size: 20px;
+  /* font-size: 20px; */
   color: var(--blue);
 }
 
@@ -94,7 +95,7 @@ img {
 
 .text {
   line-height: 1.75;
-  width: 400px;
+  width: 450px;
 }
 
 .image {
@@ -106,4 +107,9 @@ img {
 .logo {
   width: 100px;
   padding: 40px 0;
+}
+
+/* The font we're using has some weird left margin for the capital E */
+.e-offset {
+  margin-left: -4px;
 }
