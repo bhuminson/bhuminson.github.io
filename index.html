@@ -8,31 +8,31 @@
         <link rel="stylesheet" href="styles.css"/>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap" rel="stylesheet">
-        <title>Ben Son</title>
+        <title>Bhumin Ben Son</title>
     </head>
     <body>
-        <div class="main centered">
+        <div id="top" class="main centered">
             <div class="centered">
                 <div class="text bold">
-                    <h1>Hey! &#128075;</h1>
+                    <h1 class="cap-offset">Hey! &#128075;</h1>
                     <p>Welcome to my personal website :)</p>
-                    <p>My name is <span>Ben Son</span> or <span>손부민</span> in Korean.</p>
+                    <p>My name is <span>Bhumin Ben Son</span> or <span>손부민</span> in Korean.</p>
                     <p>I'm a junior computer science student and <br/>
                         part-time software engineer. </p>
                     <p>I love building and maintaining elegant, robust <br/>
                         web/mobile apps. I'm interested in everything from<br/> 
                         the front-end to the back-end.</p></br>
-                    <a href="https://github.com/bhuminson"><img class="social-icon circle" src="images/git-icon.png"></a>
-                    <a href="https://www.linkedin.com/in/bhumin-ben-son/"><img class="social-icon circle" src="images/lin-icon.png"></a>
+                    <a href="https://github.com/bhuminson" target="_blank"><img class="social-icon circle" src="images/git-icon.png"></a>
+                    <a href="https://www.linkedin.com/in/bhumin-ben-son/" target="_blank"><img class="social-icon circle" src="images/lin-icon.png"></a>
                 </div>
                 <div class="image">
                     <img class="circle" src="images/me.jpg"/>
                 </div>
             </div>
-            <a class="dropdown bold">Read more<br/>V</a>
+            <a class="dropdown bold" href="#main-content-start">Read more<br/>V</a>
         </div>
         
-        <div class= "centered gray container">
+        <div id="main-content-start" class= "centered gray container">
             <div class="text">
                 <h2>About Me</h2>
                 <p>I'm currently a 3rd year computer science student at Cal
@@ -72,8 +72,8 @@
                     Grades 1-9<br/>
                 </p>
             </div>
-            <div class="image">
-                <img src="images/edu.png"/>
+            <div class="image centered">
+                <img class="section-icon" src="images/edu.png"/>
             </div>
         </div>
 
@@ -101,8 +101,8 @@
                     Jul 2017 - Jun 2018<br/>
                 </p>
             </div>
-            <div class="image">
-                <img src="images/work.png"/>
+            <div class="image centered">
+                <img class="section-icon" src="images/work.png"/>
             </div>
         </div>
 
@@ -113,7 +113,7 @@
                 <p class="description">
                     Independently developed a static webpage deployed using GitHub Pages 
                     that displays my professional background in a clean, simple UI.
-                    Check it out!
+                    <a href="https://bhuminson.github.io" target="_blank">Check it out!</a>
                 </p>
                 <p class="bold subtitle">Android Fitness App<span class="description">&nbsp; Java, XML, Android Studio</span></p>
                 <p class="description">
@@ -121,7 +121,7 @@
                     freshman year of college. The app provides a rest timer and assists users 
                     in following a popular weightlifting routine. It also saves data, allowing 
                     users to track their lifts.
-                    Check it out!
+                    <a href="https://play.google.com/store/apps/details?id=com.bhumin.android.phul&hl=en_US&gl=US" target="_blank">Check it out!</a>
                 </p>
                 <p class="bold subtitle">Client-side Webapp<span class="description">&nbsp; React, JavaScript, HTML, CSS</span></p>
                 <p class="description">
@@ -140,9 +140,34 @@
                     Project link is coming soon...
                 </p>
             </div>
-            <div class="image">
-                <img src="images/idea.png"/>
+            <div class="image centered">
+                <img class="section-icon" src="images/idea.png"/>
             </div>
+        </div>
+
+        <div class= "centered gray container">
+            <div class="text">
+                <h2 class="cap-offset">Passions & Interests</h2>
+                <p class="description">
+                    As I am only in the early stages of my career, I am open to exploring all kinds of subfields within computer science
+                    and software engineering. With that being said, I have a strong interest towards web and mobile development, or anything 
+                    that involves creating user-interactive software that solves real-life problems. I love doing everything from designing 
+                    elegant, simple user interfaces to programming robust, clean back-end logic. I dream that one day, people across the 
+                    world will interact with my code every day.
+                </p>
+                <p class="description">
+                    On a more personal note, my hobbies include basketball, video games, and listening to music. I love spending the days in 
+                    Southern California beaches and hiking. 
+                </p>
+            </div>
+            <div class="image centered">
+                <img class="section-icon" src="images/like.png"/>
+            </div>
+        </div>
+
+        <div class= "centered footer">
+                Looks like you've reached the end!
+            <!-- <a class="dropdown bold" href="#top">^<br/>Go to top</a> -->
         </div>
     </body>
 </html>
