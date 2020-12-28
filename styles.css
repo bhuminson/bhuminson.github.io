@@ -41,6 +41,8 @@ img {
 
 .description {
   margin-top: 0;
+  font-size: 16px;
+  font-weight: normal;
 }
 
 .social-icon {
@@ -109,7 +111,7 @@ img {
   padding: 40px 0;
 }
 
-/* The font we're using has some weird left margin for the capital E */
-.e-offset {
+/* The font we're using has some weird left margin for the capital letters */
+.cap-offset {
   margin-left: -4px;
 }
