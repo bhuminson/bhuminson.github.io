@@ -131,3 +131,17 @@ a {
 .footer {
   padding: 20px 0;
 }
+
+.theme-switch {
+  position: absolute;
+  top: 10px;
+}
+
+.theme-icon {
+  width: 30px;
+}
+
+#toggle-light,
+#toggle-night {
+  filter: brightness(0);
+}
