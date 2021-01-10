@@ -44,6 +44,9 @@ function toggleLightMode() {
   for (var i = 0; i < sectionIcons.length - 1; i++)
     sectionIcons[i].style.filter = "brightness(0)";
 
+  var logo = document.getElementsByClassName("logo");
+  for (var i = 0; i < logo.length; i++) logo[i].style.filter = "";
+
   document.getElementsByClassName("footer")[0].style.color = lightModeText;
   document.getElementsByClassName("dropdown")[0].style.color = lightModeText;
   document.getElementById("git").style.filter = "brightness(0)";
